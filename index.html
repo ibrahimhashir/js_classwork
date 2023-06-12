@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body>
+    <h2  id="jsclass" style="text-align: center; color: red;"></h2>
+    <p id="jsclass2"></p>
+    <p id="plus"></p>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="sub2"></p>
+    <p id="mul"></p>
+    <p id="mul2"></p>
+    <p id="divi"></p>
+    <p id="divi2"></p>
+    <P id="modu"></P>
+    <p id="modu2"></p>
+    <p id="expo"></p>
+    <p id="expo2"></p>
+
+    <script>
+        document.getElementById('jsclass').innerHTML = 'JAVASCRIPT DAY 3';
+        document.getElementById('jsclass2').innerHTML = 'Arithmetic Operator in Javascript';
+
+        // ADDITION
+        let a = 5;
+        let b = 9;
+        let c = a+b;
+        document.getElementById('plus').innerHTML = '<b>1. ADDITION </b>Addition Operator Add two numbers together example';
+        document.getElementById('add').innerHTML = "a+b =" + c; 
+         
+        //SUBTRACTION
+        let d = 10;
+        let e = 4;
+        let f = d-e;
+        document.getElementById('sub').innerHTML = '<b>2. SUBTRACTION:  </b> The subtraction operator (-) subtracts numbers Example';
+        document.getElementById('sub2').innerHTML = "d-e =" + f; 
+        
+      
+        
+        // MULTIPLICATION
+        let k = 3;
+        let m = 4;
+        let n = k*m;
+        document.getElementById('mul').innerHTML = '<b>3. MULTIPLICATION: </b> The multiplication operator (*) multiplies numbers, Example';
+        document.getElementById('mul2').innerHTML = 'k*m =' + n;
+
+        //DIVITION
+        let o = 20;
+        let g = 10;
+        let p = o/g;
+
+        document.getElementById('divi').innerHTML = "<b> DIVISION </b> The division operator (/) divides numbers, Example"
+        document.getElementById('divi2').innerHTML = "o/g = " + p;
+
+        //MODULUS 
+        let x = 30;
+        let y = 20;
+        let z = x%y;
+
+
+        document.getElementById('modu').innerHTML = "<b> MODULUS :</b> The modulus operator (%) returns the division remainder."
+        document.getElementById('modu2').innerHTML = "x%y =" + z;
+
+    //Exponentiation
+
+        let j = 40;
+        let l = 30;
+        let ba = j**l;
+
+        document.getElementById('expo').innerHTML = "<b> EXPONENTIATION </b> The exponentiation operator (**) raises the first operand to the power of the second operand.";
+        document.getElementById('expo2').innerHTML = " v = j**l =" + ba; 
+</script>
+<h2 id="comp1" style="color: red; text-align: center;"></h2>
+<p id="comp"></p>
+<p id="comp2"></p>
+<P id="grr2"></P>
+<p id="grr1"></p>
+ 
+ 
+<p id="cat"></p>
+<p id="hhh"></p>
+<p id="hhh2"></p>
+ 
+ 
+<p id="cat2"></p>
+<p id="nq"></p>
+<p id="demo1"></p>
+<p id="uuu"></p>
+<p id="demo2"></p>
+<p id="mmm2"></p>
+<p id="mmm"></p>
+ 
+<script>
+    
+    let text1 = 700;
+    let text2 = 400;
+    let result = text1 < text2;
+    document.getElementById('comp1').innerHTML = "JavaScript Comparison Operators"
+document.getElementById("comp2").innerHTML = " Is A less than B? " + result;
+    document.getElementById('comp').innerHTML = "<b>LESS THAN</b>"
+
+
+    let text11 = "70";
+    let text12 = "30";
+    let result2 = text11 > text12;
+   document.getElementById("grr1").innerHTML = "Is 70 GREATER THAN 30? " + result2;
+   document.getElementById('grr2').innerHTML = "<b>GREATER THAN</b>"
+     
+
+   // greater than  or equal
+   let bag = 5;
+   document.getElementById('hhh2').innerHTML = "<b> greater than or equal to</b> "
+document.getElementById("hhh").innerHTML = "bag = 5;" + (bag >= 5);
+ 
+
+
+// less than or equal to
+let cat = 5;
+document.getElementById("cat").innerHTML = "cat = 5;" + (cat >= 8);
+document.getElementById('cat2').innerHTML = "<b> less than or equal to</b "
+
+   
+     ////===	equal value and equal type
+
+    let oo = 5;
+document.getElementById("demo1").innerHTML = "oo === 5";
+document.getElementById('nq').innerHTML = "<b>equal value and equal type</b>"
+
+ 
+//not eqaul to
+document.getElementById('uuu').innerHTML = "<b> !=	not equal </b>"
+let xx = 5;
+document.getElementById("demo2").innerHTML =  "xx = 5.....xx != 8 "+(xx != 8);
+document.getElementById('uuu').innerHTML = "<b> !=	not equal </b>"
+
+//	not equal value or not equal type
+let mmm = 5;
+document.getElementById("mmm").innerHTML = "let mmm = 5;" + (mmm !== 5);
+document.getElementById('mmm2').innerHTML = "<b>not equal value or not equal type</b>"
+
+
+
+
+
+</script>
+
+
+
+
+
+</script>
+    
+</body>
+</html>
